@@ -1,0 +1,340 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    background: #f8f9fa;
+    color: #222;
+}
+
+.bg-maroon {
+    background: #6d0d1e !important;
+}
+
+.text-maroon {
+    color: #6d0d1e !important;
+}
+
+.navbar {
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #6d0d1e !important;
+    margin-left: 2px !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .amity-logo {
+    height: 36px;
+    margin-left: 10px;
+}
+
+.badge.bg-primary {
+    background: #6d0d1e !important;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h1, h2, h5 {
+    font-weight: 700;
+}
+
+.btn-primary,
+.btn-outline-primary {
+    background: #6d0d1e;
+    border-color: #6d0d1e;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    background: #8a1c2b;
+    border-color: #8a1c2b;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background: #fff;
+    color: #6d0d1e;
+}
+
+.btn-light {
+    color: #6d0d1e;
+    background: #fff;
+    border-color: #fff;
+}
+
+.btn-light:hover {
+    background: #f3e6e9;
+    color: #6d0d1e;
+}
+
+.btn-maroon {
+    background: #6d0d1e;
+    color: #fff;
+    border: 1px solid #6d0d1e;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-maroon:hover,
+.btn-maroon:focus {
+    background: #8a1c2b;
+    color: #fff;
+}
+
+.btn-outline-maroon {
+    border: 1.5px solid #6d0d1e;
+    color: #6d0d1e;
+    background: #fff;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-outline-maroon:hover,
+.btn-outline-maroon:focus {
+    background: #6d0d1e;
+    color: #fff;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s;
+    background: #fff;
+}
+
+.card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Benefits Cards (Why Universities choose online voting) */
+.benefits-card {
+    background: #fff;
+    border: 2px solid #6d0d1e;
+    border-radius: 1.5rem;
+    min-height: 320px;
+    color: #6d0d1e;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.benefits-card .card-title,
+.benefits-card .card-body i {
+    color: #6d0d1e;
+}
+
+/* Maroon section cards override */
+.bg-maroon .card {
+    background: #fff;
+    color: #6d0d1e;
+}
+.bg-maroon .card .card-title {
+    color: #6d0d1e;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #fff !important;
+    border-radius: 50%;
+    border: 2px solid #6d0d1e;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+.carousel-inner {
+    padding-bottom: 1rem;
+}
+.carousel-item .card {
+    min-height: 220px;
+}
+
+/* Accordion */
+.accordion-button:not(.collapsed) {
+    background: #f3e6e9;
+    color: #6d0d1e;
+    font-weight: 600;
+}
+.accordion-button {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.accordion-item {
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 1.25rem;
+    border: none;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.12);
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-title {
+    color: #6d0d1e;
+}
+.nav-pills .nav-link {
+    color: #6d0d1e;
+    background: #f3e6e9;
+    border-radius: 1.5rem;
+    margin: 0 0.25rem;
+    font-weight: 500;
+}
+.nav-pills .nav-link.active {
+    background: #6d0d1e;
+    color: #fff;
+}
+.form-label {
+    color: #6d0d1e;
+    font-weight: 500;
+}
+.form-control:focus {
+    border-color: #6d0d1e;
+    box-shadow: 0 0 0 0.2rem rgba(109, 13, 30, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+}
+footer h5 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+footer ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+footer .text-center {
+    color: #bbb;
+    font-size: 0.95rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    background: #f3e6e9;
+}
+::-webkit-scrollbar-thumb {
+    background: #6d0d1e;
+    border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .display-5 {
+        font-size: 2.2rem;
+    }
+    .hero-img {
+        max-height: 220px !important;
+    }
+    .col-lg-4.d-none.d-lg-block {
+        display: none !important;
+    }
+    .benefits-card {
+        min-height: 250px;
+    }
+}
+@media (max-width: 767.98px) {
+    .carousel-item .row>div,
+    .carousel-inner .row > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .carousel-inner {
+        padding-bottom: 0.5rem;
+    }
+    .hero-img {
+        max-height: 180px !important;
+    }
+    .benefits-card {
+        min-height: 180px;
+    }
+}
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    .display-5 {
+        font-size: 1.5rem;
+    }
+    .card,
+    .benefits-card {
+        min-height: 180px;
+    }
+    .hero-img {
+        max-height: 120px !important;
+    }
+    section {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .modal-dialog {
+        margin: 1rem;
+    }
+    .modal-content {
+        padding: 0.5rem;
+    }
+}
+.btn-outline-primary{
+        --bs-btn-color: #f8f9fa;
+}
+.gap-2 {
+  gap: 4.5rem !important;
+}
+
+.amivote-logo-text {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #6d0d1e;
+  display: flex;
+  align-items: center;
+}
+.amivote-accent {
+  color: #e63946;
+  font-size: 2.4rem;
+  margin-right: 2px;
+  font-family: inherit;
+  font-weight: 900;
+}
+@media (max-width: 575.98px) {
+  .amivote-logo-text {
+    font-size: 1.3rem;
+  }
+  .amivote-accent {
+    font-size: 1.5rem;
+  }
+}
+
+
+ 
